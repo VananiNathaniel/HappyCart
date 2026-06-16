@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Here - HappyCart</title>
+
+    <link rel="stylesheet" href="css/register.css"> 
+
+    
+</head>
+
+
+<body>
+        <form action="">  
+                 
+            <legend>Join us and become a member!</legend>
+            <br>
+    
+        <fieldset>
+            <label for="fullname">Your Full Name:</label><br>
+            <input type="text" id="fullname" placeholder="e.g. John Doe" required>
+            <br><br>
+
+             <label for="email">Your Email:</label><br>
+            <input type="email" id="email" placeholder="e.g. john.doe@example.com" required>
+            <br><br>
+
+             <label for="password">Your Password:</label><br>
+            <input type="password" id="password" placeholder="Create a strong password" required>
+            <br><br>
+
+            <label for="confirm_password">Confirm Password:</label><br>
+            <input type="password" id="confirm_password" placeholder="Re-enter your password" required>
+            <br><br>
+
+             <Label for="age">How old are you?</label><br>
+            <input type="number" id="age" placeholder="e.g. 25" required>
+            <br><br>
+
+            <label for="dt">Date and Time:</label><br>
+            <input type="datetime-local" id="dt" required>
+            <br><br>
+
+            <label for="yob"> Year of Birth:</label><br>
+            <input type="date" id="yob" required>
+            <br><br><br>
+
+
+            <button type="submit">Register</button>
+            <br><br>
+        </fieldset><br>
+
+        <fieldset>
+            <label for="login">Already have an account?</label>
+            <a href="login.html">Login here</a>
+            <br><br>
+
+            <label for="file">Upload CV/Resume</label><br>
+            <input type="file" id="file" accept=".pdf,.doc,.docx" required>
+            <br><br>
+
+            <label for="nationaly">Your Nationality:</label><br>
+            
+            <!-- dropdown menu -->
+            <select name="nationaly" id="nationaly" required><br>
+                <option value="" disabled>--Choose One--</option>
+                <option value="american">American</option>
+                <option value="canadian">Canadian</option>  
+                <option value="british">British</option>
+                <option value="australian">Australian</option>
+            </select>
+            <!-- dropdown end -->
+             <br><br>
+
+            <label for="gender">Select Gender:</label>
+            <br>
+
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label> <br>
+
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label> <br>
+
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label> <br>
+            <br>
+
+            <!-- Text area -->
+             <label for="coverletter">Cover Letter</label><br>
+             <textarea id="text" name="coverletter" rows="8" cols="45" placeholder="Not more than 500 words"></textarea><br>
+                
+            <button type="submit">Submit</button><br>
+
+        </fieldset><br>
+
+
+
+            <legend>Select your dietary preferences:</legend>
+        <fieldset>
+            
+            <input type="checkbox" id="vegan" name="diet">
+            <label for="vegan">Vegan</label><br>
+         
+            <input type="checkbox" id="vegetarian" name="diet">
+            <label for="vegetarian">Vegetarian</label><br>
+            
+            <input type="checkbox" id="gf" name="diet">
+            <label for="gf">Gluten-Free</label>
+         
+        </fieldset>
+        </form>
+
+
+
+
+
+
+
+
+
+
+            
+        </form>
+
+
+    
+
+
+</body>
+</html>

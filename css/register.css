@@ -1,0 +1,54 @@
+form {
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 450px;
+    margin:  auto;
+    padding: 70px;
+    border-radius: 20px;
+    padding-left: 5%;
+}
+
+legend {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type=text], input[type=datetime-local], input[type=email], input[type=password], input[type=date], input[type=file], input[type=number]{
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 8px;
+}
+
+fieldset {
+  border-width: 3px;
+  border-color: #333333;
+  border-style: solid;
+  box-shadow: 6px 6px 0px 0px #333333;
+  border-radius: 20px;
+}
+
+button {
+        background: #ff3399;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 0, 127, 0.6), 
+                        0 0 15px rgba(255, 0, 127, 0.4);
+            width: 120px;
+            height: 190%;
+            border-radius: 5px;
+            font-size: 18px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+
+textarea {
+  outline: none;
+  border-color: #3b82f6;
+  border-radius: 10px;
+}

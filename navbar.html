@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HappyCart Store</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+    background:#f8f9fa;
+}
+
+/* Navbar */
+.navbar{
+    box-shadow:0 2px 15px rgba(0,0,0,.1);
+}
+
+/* Hero */
+.hero{
+    background:linear-gradient(135deg,#0d6efd,#6610f2);
+    color:white;
+    padding:100px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+/* Cards */
+.category-card{
+    transition:0.3s;
+    border:none;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.category-card:hover{
+    transform:translateY(-10px);
+}
+
+/* Carousel */
+.carousel-item img{
+    height:600px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.carousel-caption{
+    background:rgba(0,0,0,0.5);
+    border-radius:10px;
+    padding:15px;
+}
+
+/* Section Titles */
+.section-title{
+    font-weight:bold;
+    margin-bottom:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+<div class="container">
+
+<a class="navbar-brand fw-bold" href="#">
+🛒 HappyCart
+</a>
+
+<button class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarContent">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarContent">
+
+<ul class="navbar-nav ms-auto gap-4">
+
+<li class="nav-item">
+<a class="nav-link active" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Services</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+<div class="container">
+
+<h1>Welcome to HappyCart</h1>
+
+<p class="lead mt-3">
+Shop smarter. Live better. Discover amazing products at unbeatable prices.
+</p>
+
+<a href="#" class="btn btn-light btn-lg mt-3">
+Shop Now
+</a>
+
+</div>
+
+</section>
+
+<!-- PRODUCT CATEGORIES -->
+
+<section class="container py-5">
+
+<h2 class="text-center section-title">
+Product Categories
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="card category-card h-100">
+
+<div class="card-body">
+
+<h3 class="card-title">
+🎮 Toys & Games
+</h3>
+
+<p class="card-text">
+Explore fun toys, puzzles, educational kits and exciting games for every age.
+</p>
+
+<button class="btn btn-primary">
+Buy Now
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card category-card h-100">
+
+<div class="card-body">
+
+<h3 class="card-title">
+💻 Electronics
+</h3>
+
+<p class="card-text">
+Discover the latest gadgets, smartphones, laptops and smart devices.
+</p>
+
+<button class="btn btn-success">
+Buy Now
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card category-card h-100">
+
+<div class="card-body">
+
+<h3 class="card-title">
+🍳 Kitchenware
+</h3>
+
+<p class="card-text">
+Premium cookware, utensils and kitchen accessories for modern homes.
+</p>
+
+<button class="btn btn-danger">
+Buy Now
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CAROUSEL -->
+
+<section class="container py-5">
+
+<h2 class="text-center section-title">
+🚗 Experience The Drive, Feel The Power
+</h2>
+
+<p class="text-center text-muted mb-5">
+Browse our premium automobile collection.
+</p>
+
+<div id="myCarousel"
+     class="carousel slide shadow-lg"
+     data-bs-ride="carousel">
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+
+<img src="assets/Car1.jpg" class="d-block w-100">
+
+<div class="carousel-caption">
+<h3>Ferrari 2024</h3>
+<p>Luxury and speed combined.</p>
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<img src="assets/Car2.png" class="d-block w-100">
+
+<div class="carousel-caption">
+<h3>Toyota SUV</h3>
+<p>Adventure without limits.</p>
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<img src="assets/Car3.jpg" class="d-block w-100">
+
+<div class="carousel-caption">
+<h3>Land Cruiser</h3>
+<p>Built for every terrain.</p>
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<img src="assets/Car4.jpg" class="d-block w-100">
+
+<div class="carousel-caption">
+<h3>Jeep Wrangler</h3>
+<p>Freedom on four wheels.</p>
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<img src="assets/Car5.jpg" class="d-block w-100">
+
+<div class="carousel-caption">
+<h3>Peugeot SUV</h3>
+<p>Comfort meets performance.</p>
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<img src="assets/Car6.jpg" class="d-block w-100">
+
+<div class="carousel-caption">
+<h3>Toyota Camry</h3>
+<p>Elegance for everyday driving.</p>
+</div>
+
+</div>
+
+</div>
+
+<button class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev">
+
+<span class="carousel-control-prev-icon"></span>
+
+</button>
+
+<button class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next">
+
+<span class="carousel-control-next-icon"></span>
+
+</button>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="bg-dark text-white text-center py-4 mt-5">
+
+<div class="container">
+
+<p class="mb-0">
+© 2026 HappyCart Store. All Rights Reserved.
+</p>
+
+</div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
