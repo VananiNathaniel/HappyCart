@@ -1,4 +1,3 @@
-
 # Exclude generated files from language statistics
 dist/* linguist-generated=true
 
@@ -17,4 +16,3 @@ my-special-folder/* linguist-vendored=false
 
 # Force GitHub to detect a specific language for an extension
 *.js linguist-language=JavaScript
-dc78aca15245a29ffa9592ecd6d14ad998faccb6
