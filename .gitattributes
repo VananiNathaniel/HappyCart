@@ -1,0 +1,12 @@
+# Exclude generated files from language statistics
+dist/* linguist-generated=true
+
+# Exclude vendor libraries
+vendor/* linguist-vendored=true
+
+# Include vendor files in statistics
+vendor/* linguist-vendored=false
+
+# Force a language
+*.inc linguist-language=PHP
+*.tpl linguist-language=HTML
