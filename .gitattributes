@@ -1,0 +1,5 @@
+# Force GitHub to count a specific folder
+my-special-folder/* linguist-vendored=false
+
+# Force GitHub to detect a specific language for an extension
+*.js linguist-language=JavaScript
