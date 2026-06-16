@@ -1,3 +1,4 @@
+
 # Exclude generated files from language statistics
 dist/* linguist-generated=true
 
@@ -10,3 +11,10 @@ vendor/* linguist-vendored=false
 # Force a language
 *.inc linguist-language=PHP
 *.tpl linguist-language=HTML
+
+# Force GitHub to count a specific folder
+my-special-folder/* linguist-vendored=false
+
+# Force GitHub to detect a specific language for an extension
+*.js linguist-language=JavaScript
+dc78aca15245a29ffa9592ecd6d14ad998faccb6
